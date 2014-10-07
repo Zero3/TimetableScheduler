@@ -1,0 +1,38 @@
+table
+{
+	border-collapse: collapse;
+}
+
+td
+{
+	height: 80px;
+	width: 120px;
+	font-size: 11pt;
+	padding: 5px;
+	border: 1px solid black;
+	background-color: lightgray;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.overlap
+{
+	background-color: orange;
+}
+
+.personheader, .day, .time
+{
+	font-weight: bold;
+}
+
+td:empty
+{
+	background-color: white;
+}
+
+.continue
+{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}

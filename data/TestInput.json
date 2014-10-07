@@ -1,0 +1,65 @@
+/*
+	Test input for testing various features of the scheduler. Not particularly interesting, but its nice to have some small test input for debugging purposes.
+*/
+{
+	"courses":
+	{
+		"FF500":
+		[
+			{ "weeks": 37, "length": 1, "type": "F", "groups": ["F"], "staff": ["shan"] },
+			{ "weeks": 37, "length": 4, "type": "F", "groups": ["F"], "staff": ["shan"] },
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"], "staff": [["chsom09"], ["jonyr09"]] }
+		],
+		"FF502":
+		[
+			{ "weeks": 37, "length": 2, "type": "F", "groups": ["F"], "staff": ["agata"] },
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"], "staff": [["chsom09"], ["jonyr09"]] },
+			{ "weeks": 37, "length": 2, "type": "F", "groups": ["F"], "staff": ["agata"] },
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"], "staff": [["chsom09"], ["jonyr09"]] }
+		],
+		"FF503":
+		[
+			{ "weeks": 37, "length": 2, "type": "F", "groups": ["F"], "staff": ["pouln"] },
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"]},
+			{ "weeks": 37, "length": 1, "type": "F", "groups": ["F"], "staff": ["pouln"] },
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"]},
+			{ "weeks": 37, "length": 2, "type": "E", "groups": ["S1", "S2"]}
+		],
+		"SG":
+		[
+			{ "weeks": 37, "length": 2, "groups": ["S1", "S2"]}
+		],
+		"SGV":
+		[
+			{ "weeks": 37, "length": 2, "groups": ["S1", "S2"]},
+			{ "weeks": 37, "length": 2, "groups": ["S1", "S2"]}
+		]
+	},
+	"students":
+	{
+		"Students_S1":
+		{
+			"weight": 1,
+			"attendance":
+			[
+				{ "course": "FF500", "groups": ["F", "S1"] },
+				{ "course": "FF502", "groups": ["F", "S1"] },
+				{ "course": "FF503", "groups": ["F", "S1"] },
+				{ "course": "SG", "groups": ["S1"] },
+				{ "course": "SGV", "groups": ["S1"] }
+			]
+		},
+		"Students_S2":
+		{
+			"weight": 1,
+			"attendance":
+			[
+				{ "course": "FF500", "groups": ["F", "S2"] },
+				{ "course": "FF502", "groups": ["F", "S2"] },
+				{ "course": "FF503", "groups": ["F", "S2"] },
+				{ "course": "SG", "groups": ["S2"] },
+				{ "course": "SGV", "groups": ["S2"] }
+			]
+		}
+	}
+}
