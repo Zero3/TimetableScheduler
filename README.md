@@ -3,6 +3,8 @@ TimetableScheduler
 
 TimetableScheduler is a an individual study activity I did during my computer science master's degree. It solves the university timetabling problem at Faculty of Science at University of Southern Denmark using [integer programming](https://en.wikipedia.org/wiki/Integer_programming). This project is currently neither active nor maintained, but merely available here for its conceptual value and any curious eyes.
 
+Running TimetableScheduler requires the [Gurobi Optimizer](http://www.gurobi.com/) to be installed.
+
 Individual study activity description
 -----
 The university timetabling problem considers how to schedule university courses in such a way that various
